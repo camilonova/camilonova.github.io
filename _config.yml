@@ -3,31 +3,22 @@ description:      Personal website of Camilo Nova
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
-# Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://camilonova.com
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  name:           Camilo Nova
+  avatar:         camilo-nova.jpg
+  email:          camilo.nova@gmail.com
+  twitter:        https://twitter.com/camilonova
+  facebook:       https://www.facebook.com/nova.camilo
+  github:         https://github.com/camilonova
+  stackexchange:  http://stackoverflow.com/users/738679/camilo-nova
+  linkedin:       http://co.linkedin.com/in/camilonova/
+  google_plus:    https://google.com/+CamiloNova
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+google_analytics:   UA-47883921-1
 
 # Links to include in top navigation
 # For external links add external: true
@@ -42,8 +33,7 @@ links:
     url: http://mademistakes.com
     external: true
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Bogota
 future:      true
 pygments:    true
 markdown:    kramdown
