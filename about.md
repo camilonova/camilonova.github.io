@@ -12,11 +12,11 @@ image:
 
 I'm a technology entrepeneur working with global companies.
 
+| ![AxiaCore](/images/about/axiacore.jpg) | <a href="http://axiacore.com" target="_blank">World class web applications</a>   |
+| ![Zinobe](/images/about/zinobe.png) | <a href="https://www.lineru.com" target="_blank">Online loans in Colombia</a>    |
+| ![Social Airways](/images/about/social-airways.png) | <a href="http://socialairways.com" target="_blank">Meet interesting people while travelling</a> |
 
-| ![AxiaCore](/images/about/axiacore.jpg)              | <a href="http://axiacore.com" target="_blank">World class web applications</a>       |
-| ![Zinobe](/images/about/zinobe.png)                  | <a href="https://www.lineru.com" target="_blank">Online loans in Colombia</a>        |
-| ![Social Airways](/images/about/social-airways.png)  | <a href="http://socialairways.com" target="_blank">Meet interesting people while travelling</a> |
-
+If you are a non technical kind of person and run a sucessful business on your own, I can boost your company to scale to millons of customers, just say hello and let me know about your work.
 
 ## Some facts about me:
 
@@ -33,4 +33,4 @@ I'm a technology entrepeneur working with global companies.
 * I am a very lucky person.
 
 
-There's quite a lot of things about me, I attend to conferences and meetups as much as I can, if you want to meet me just go there and say hi.
+There's quite a lot of interesting things about me, I attend to conferences and meetups as much as I can, if you want to meet me just go there and say hi.
