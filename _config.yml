@@ -1,6 +1,6 @@
 title:            Camilo Nova
 description:      Personal website of Camilo Nova
-logo:             site-logo.png
+logo:             site-logo.jpg
 disqus_shortname: camilonova
 search:           true
 url:              http://camilonova.com
@@ -24,15 +24,12 @@ google_sitename:    camilonova.com
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
   - title: Articles
     url: /articles/
   - title: Places
     url: /places/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: About
+    url: /about/
 
 timezone:    America/Bogota
 future:      true
