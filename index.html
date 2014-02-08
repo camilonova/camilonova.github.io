@@ -16,9 +16,16 @@ html {
 body {
 	background-color: transparent;
 }
+.entry {
+	border: none;
+}
 .entry-wrapper {
 	margin-top: 50%;
 	background-color: #fff;
+}
+.footer-wrapper footer {
+	background-color: white;
+	padding: 30px 0 10px 0;
 }
 </style>
 
@@ -33,3 +40,5 @@ body {
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
+
+<br>
