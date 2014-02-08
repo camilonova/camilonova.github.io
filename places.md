@@ -3,6 +3,7 @@ layout: page
 full_width: true
 permalink: /places/
 title: Places I've been
+description: "This is the map where Camilo Nova has been to"
 tags: [camilo, nova, places]
 modified: 2014-02-7
 image:
