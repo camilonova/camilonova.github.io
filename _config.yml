@@ -10,15 +10,16 @@ owner:
   name:           Camilo Nova
   avatar:         camilo-nova.jpg
   email:          camilo.nova@gmail.com
-  twitter:        https://twitter.com/camilonova
-  facebook:       https://www.facebook.com/nova.camilo
-  github:         https://github.com/camilonova
-  stackexchange:  http://stackoverflow.com/users/738679/camilo-nova
-  linkedin:       http://co.linkedin.com/in/camilonova/
+  twitter:        camilonova
+  facebook:       nova.camilo
   google_plus:    https://google.com/+CamiloNova
+  linkedin:       camilonova
+  stackexchange:  http://stackoverflow.com/users/738679/camilo-nova
+  github:         camilonova
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-47883921-1
+google_sitename:    camilonova.com
 
 # Links to include in top navigation
 # For external links add external: true
