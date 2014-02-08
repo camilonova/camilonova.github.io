@@ -10,24 +10,27 @@ image:
   creditlink: http://axiacore.com
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+I'm a technology entrepeneur working with global companies.
 
-## So Simple Theme is all about:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations. 
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Disqus comments if you choose to enable.
-* Simple and clear permalink structure[^1].
-* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
-* Simple search that overlays results based on post title.
-* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
+| ![AxiaCore](/images/about/axiacore.jpg)              | <a href="http://axiacore.com" target="_blank">World class web applications</a>       |
+| ![Zinobe](/images/about/zinobe.png)                  | <a href="https://www.lineru.com" target="_blank">Online loans in Colombia</a>        |
+| ![Social Airways](/images/about/social-airways.png)  | <a href="http://socialairways.com" target="_blank">Meet interesting people while travelling</a> |
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
-[^1]: Example: *domain.com/category-name/post-title*
+## Some facts about me:
+
+* I do workout 5 days a week.
+* I can run 5k in 27 minutes.
+* I'm living on my own since I was 16 years old.
+* I watch a lot of movies, <a href="http://www.imdb.com/user/ur48477232/ratings" target="_blank">see my ratings</a>.
+* I met computers since I was 13.
+* I started programming software when I had 18 years old.
+* My wife is amazingly beautiful.
+* I was raised by German-Americans.
+* I lived almost a year on an <a href="http://en.wikipedia.org/wiki/San_Andr%C3%A9s_(island)" target="_blank">paradise island</a>.
+* Since I was 20 I'm investing in companies.
+* I am a very lucky person.
+
+
+There's quite a lot of things about me, I attend to conferences and meetups as much as I can, if you want to meet me just go there and say hi.
