@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-description: "About Camilo Nova"
+description: About Camilo Nova
 headline: About Camilo Nova
 tags: [camilo, nova, axiacore, lineru, socialairways, bogota]
 modified: 2014-02-8

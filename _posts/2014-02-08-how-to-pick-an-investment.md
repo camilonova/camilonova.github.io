@@ -1,9 +1,8 @@
 ---
 layout: post
 title: How to pick an investment
-description: "Do you really know how to pick where you invest?"
+description: Do you really know how to pick where you invest?
 category: articles
-tags: [investing]
 image:
   feature: posts/how-to-pick-an-investment-cover.jpg
   credit: David Berkowitz
