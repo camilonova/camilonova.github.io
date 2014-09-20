@@ -19,7 +19,7 @@ I like traveling a lot, meeting new people, places and cultures is one of the mo
 This is a map of the places I have had the pleasure to be.
 
 <div class="responsive-iframe">
-	<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?hl=en&amp;msid=217524773836339260183.0004e20f4588750fa3f01&amp;msa=0&amp;ie=UTF8&amp;t=h&amp;ll=14.264383,-39.375&amp;spn=126.915191,225&amp;z=2&amp;output=embed"></iframe>
+    <iframe src="https://mapsengine.google.com/map/embed?mid=zu_3IAhs292U.kum9-fESGti8" width="640" height="480"></iframe>
 </div>
 
 <p class="text-center">
