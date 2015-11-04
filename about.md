@@ -12,7 +12,7 @@ image:
   creditlink: http://axiacore.com
 ---
 
-I'm a technology entrepeneur working with global companies, I have a strong background on business and economics, and spend some time learning about marketing and managment.
+I'm a technology entrepeneur working with global companies, I have a strong background on business and economics, and spend some time learning about marketing and management.
 
 These are the ones that I'm currently working on it:
 
@@ -24,15 +24,17 @@ If you are a non technical kind of person and run a sucessful business on your o
 
 ## Some facts about me:
 
-* I do workout 5 days a week.
+* I'm a <a href="https://www.djangoproject.com/foundation/developer-members/" target="_blank">Django Developer Member</a> as well as some cool people.
+* I do workout 3 times a week.
 * I can run 5k in 27 minutes.
+* I started the <a href="http://www.meetup.com/Django-Bogota/" target="_blank">Django Bogota Meetup</a>.
 * I'm living on my own since I was 16 years old.
 * I watch a lot of movies, <a href="http://www.imdb.com/user/ur48477232/ratings" target="_blank">see my ratings</a>.
 * I started programming software when I had 18 years old.
 * My wife is amazingly beautiful.
 * I was raised by German-Americans.
 * I lived almost a year on an <a href="http://en.wikipedia.org/wiki/San_Andr%C3%A9s_(island)" target="_blank">paradise island</a>.
-* Since I was 20 I'm investing in new companies.
+* Since I was 20 I invest in companies.
 * I am a very lucky person.
 
 
