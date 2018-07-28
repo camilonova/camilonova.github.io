@@ -1,46 +1,55 @@
----
-layout: page
-title: Technology entrepreneur and investor
-description: "Camilo Nova is a technology entrepreneur and investor"
-headline: Camilo Nova
-tags: [camilo, nova, django, axiacore, entrepreneur, lineru, socialairways]
-modified: 2014-02-8
----
+<!doctype html>
+<html class="no-js" lang="">
 
-<style type="text/css">
-html {
-    background: url(/images/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-body {
-    background-color: transparent;
-}
-.entry {
-    border: none;
-}
-.entry-wrapper {
-    margin-top: 50%;
-    background-color: #fff;
-}
-.footer-wrapper footer {
-    background-color: white;
-    padding: 30px 0 10px 0;
-}
-</style>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Camilo Nova</title>
+  <meta name="description" content="Camilo Nova es fundador de Axiacore donde construye productos digitales e invierte en startups">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
-<h2 class="text-center site-description animated fadeIn">Hi, I'm a technology entrepreneur and investor working with companies around the world.</h2>
+<body>
+  <section id="main">
+    <article>
+        <img src="img/camilo-nova.jpg" alt="Camilo Nova">
+        <h1>Camilo Nova</h1>
+        <p>Camilo Nova es fundador de Axiacore donde construye productos digitales e invierte en startups. Es socio de varias empresas de tecnología como <a href="https://www.zinobe.com/" target="_blank">Zinobe</a>, <a href="https://freshapp.com.co/" target="_blank">Freshapp</a> y <a href="https://masbien.com/" target="_blank">Más Bien</a>. Este grupo de empresas cuenta con una facturación anual superior a 10 millones de dólares y 300 empleados.</p>
 
-<hr>
+        <p>Asesora en estrategia digital a múltiples empresas y entidades del gobierno Colombiano. Escribe software en Python y ha contribuido a múltiples proyectos open source. Es miembro de la Django Software Foundation y fue el creador del grupo Python Bogota que cuenta con miles de miembros.</p>
 
-<h3>Latest posts</h3>
+        <p>Participó en Y Combinator, aprendió Startup Engineering en la universidad de Stanford y es mentor de empresas en la aceleradora holandesa Rockstart.</p>
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+        <ul>
+            <li><a href="https://axiacore.com" target="_blank">Axiacore</a></li>
+            <li><a href="http://github.com/camilonova" target="_blank">Code</a></li>
+            <li><a href="https://goodreads.com/camilonova" target="_blank">Books</a></li>
+            <li><a href="https://www.imdb.com/user/ur48477232/ratings" target="_blank">Movies</a></li>
+            <li><a href="https://www.google.com/maps/d/viewer?mid=1GXU7Amo4fJSH3lBnn0A2tEgSzD4" target="_blank">Places</a></li>
+            <li><a href="http://stackoverflow.com/users/738679/camilo-nova" target="_blank">Stack Overflow</a></li>
+            <li><a href="https://twitter.com/camilonova" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/nova.camilo" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/camilonova/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.djangoproject.com/foundation/developer-members/" target="_blank">Django</a></li>
+            <li><a href="https://www.rockstart.com/people/camilo-nova/" target="_blank">Rockstart</a></li>
+            <li><a href="https://camilonova.com" target="_blank">Camilo Nova</a></li>
+        </ul>
+  </section>
 
-<br>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-47883921-1', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
