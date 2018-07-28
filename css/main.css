@@ -1,6 +1,7 @@
 html {
     color: #222;
-    font-size: 1em;
+    background-color: #03293c;
+    font-size: 1.125em;
     line-height: 1.4;
 }
 ::-moz-selection {
@@ -43,20 +44,20 @@ textarea {
     align-items: center;
     min-width: 0;
     padding: 20px 10px;
-    background-color: #d00d3a;
 }
 #main article {
     background-color: #FFFFFF;
-    color: #555;
+    color: #333;
     font-family: 'Quicksand', sans-serif;
     border-radius: 5px;
     max-width: 520px;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 #main article img {
     border-radius: 50%;
-    width: 250px;
+    width: 200px;
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.4)
 }
 #main article h1 {
     text-align: center;
@@ -70,6 +71,9 @@ textarea {
 #main article ul li {
     display: inline-block;
     margin: 5px;
+}
+#main article a {
+    color: #1885bb;
 }
 
 
