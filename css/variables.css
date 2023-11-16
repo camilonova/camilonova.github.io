@@ -1,0 +1,17 @@
+:root {
+    --gutter: 24px;
+
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray-50: #F8F8F8;
+    --color-gray-100: #E7E7E7;
+    --color-gray-200: #CECECE;
+    --color-gray-300: #B4B4B4;
+    --color-gray-400: #9B9B9B;
+    --color-gray-500: #818181;
+    --color-gray-600: #686868;
+    --color-gray-700: #4E4E4E;
+    --color-gray-800: #353535;
+    --color-gray-900: #1B1B1B;
+    --color-gray-950: #0A0A0A;
+}
