@@ -1,5 +1,8 @@
 :root {
     --gutter: 24px;
+    
+    --text-size-base: 1rem;
+    --text-line-height-base: 1.5rem;
 
     --color-white: #FFFFFF;
     --color-black: #000000;
@@ -14,4 +17,11 @@
     --color-gray-800: #353535;
     --color-gray-900: #1B1B1B;
     --color-gray-950: #0A0A0A;
+}
+
+@media screen and (width >= 768px) {
+    :root {
+        --text-size-base: 1.125rem;
+        --text-line-height-base: 1.75rem;
+    }
 }

@@ -20,15 +20,8 @@ body {
     background-color: var(--color-gray-950);
     color: var(--color-white);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1rem;
-    line-height: 1.5rem;
-}
-
-@media (width >= 768px) {
-    body {
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-    }
+    font-size: var(--text-size-base);
+    line-height: var(--text-line-height-base);
 }
 
 .container {
