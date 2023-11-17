@@ -1,9 +1,18 @@
 :root {
+    /* Spacing */
     --gutter: 24px;
     
+    /* Font Size */
     --text-size-base: 1rem;
     --text-line-height-base: 1.5rem;
 
+    --text-size-xs: 0.75rem;
+    --text-line-height-xs: 1rem;
+
+    --text-size-sm: 0.875rem;
+    --text-line-height-sm: 1.25rem;
+
+    /* Colors */
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-gray-50: #F8F8F8;
@@ -17,11 +26,21 @@
     --color-gray-800: #353535;
     --color-gray-900: #1B1B1B;
     --color-gray-950: #0A0A0A;
+
+    /* Transition properties */
+    --transition-colors: color, background-color, border-color, text-decoration-color, fill, stroke;
 }
 
 @media screen and (width >= 768px) {
     :root {
+        /* Font Size */
         --text-size-base: 1.125rem;
         --text-line-height-base: 1.75rem;
+
+        --text-size-xs: 0.875rem;
+        --text-line-height-xs: 1.25rem;
+
+        --text-size-sm: 1rem;
+        --text-line-height-sm: 1.5rem;
     }
 }
