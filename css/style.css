@@ -45,9 +45,9 @@ body {
     padding: 0.25rem 0.75rem;
     text-align: center;
     text-transform: uppercase;
+    transition-duration: 500ms;
     transition-property: var(--transition-colors);
     transition-timing-function: ease-in-out;
-    transition-duration: 500ms;
 }
 
 .btn--primary {
@@ -74,4 +74,28 @@ body {
     .btn {
         padding: 0.25rem 1rem;
     }
+}
+
+/* ---------------------> Links <--------------------- */
+.link  {
+    font-size: var(--text-size-sm);
+    line-height: var(--text-line-height-sm);
+    text-transform: uppercase;
+    transition: color 500ms ease-in-out;
+}
+
+.link--primary {
+    color: var(--color-gray-400);
+}
+
+.link--primary:hover {
+    color: var(--color-white);
+}
+
+.link--secondary {
+    color: var(--color-gray-600);
+}
+
+.link--secondary:hover {
+    color: var(--color-gray-900);
 }
