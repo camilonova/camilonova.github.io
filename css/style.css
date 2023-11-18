@@ -107,7 +107,6 @@ body {
     color: var(--color-gray-900);
 }
 
-
 /* ---------------------> Lobby <--------------------- */
 .lobby {
     height: 100vh;
@@ -127,6 +126,7 @@ body {
     inset: 4.25rem var(--gutter);
     line-height: 0.9;
     place-content: center;
+    pointer-events: none;
     position: fixed;
     row-gap: 300px;
     text-align: center;
@@ -135,6 +135,12 @@ body {
 
 .lobby .main-title__last-name {
     align-self: self-end;
+}
+
+.lobby__btn, 
+.lobby__links-nav, 
+.lobby__social-nav {
+    transition: opacity 500ms ease-in;
 }
 
 .lobby__btn {
@@ -171,6 +177,35 @@ body {
     grid-column: 1 / span 12;
 }
 
+.lobby--loading .lobby__btn, 
+.lobby--loading .lobby__links-nav, 
+.lobby--loading .lobby__social-nav {
+    opacity: 0;
+}
+
+@media screen and (width < 1024px) {
+    .lobby .main-title {
+        transition: grid-template-rows 500ms ease-in, row-gap 500ms ease-in 100ms;
+    }
+
+    .lobby--loading .main-title {
+        grid-template-rows: 0fr 0fr;
+        row-gap: 0;
+    }
+
+    .lobby__btn, 
+    .lobby__links-nav, 
+    .lobby__social-nav {
+        transition: transform 350ms ease-in, opacity 450ms ease-in;
+    }
+
+    .lobby--loading .lobby__btn, 
+    .lobby--loading .lobby__links-nav, 
+    .lobby--loading .lobby__social-nav {
+        transform: translateY(20vh);
+    }
+}
+
 @media screen and (width >= 1024px) {
     .lobby {
         padding: 3rem 0;
@@ -188,6 +223,7 @@ body {
         margin-top: 4rem;
         position: relative;
         row-gap: 0;
+        transition: transform 500ms ease-in-out;
     }
 
     .lobby__btn,
@@ -227,6 +263,10 @@ body {
     .lobby.grid .lobby__links-nav {
         align-self: self-end;
         grid-row-start: 4;
+    }
+
+    .lobby--loading .main-title {
+        transform: scale(1.5);
     }
 }
 
