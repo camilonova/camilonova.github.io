@@ -1,3 +1,4 @@
+/* ---------------------> Font family <--------------------- */
 @font-face {
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -24,8 +25,77 @@ body {
     line-height: var(--text-line-height-base);
 }
 
+/* ---------------------> Container <--------------------- */
 .container {
     margin: 0 auto;
     max-width: 1536px;
     padding: 0 var(--gutter);
+}
+
+/* ---------------------> Buttons <--------------------- */
+.btn {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    font-size: var(--text-size-sm);
+    justify-content: center;
+    line-height: var(--text-line-height-sm);
+    padding: 0.25rem 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition-duration: 500ms;
+    transition-property: var(--transition-colors);
+    transition-timing-function: ease-in-out;
+}
+
+.btn--primary {
+    border-color: var(--color-gray-100);
+    color: var(--color-gray-100);
+}
+
+.btn--primary:hover {
+    background-color: var(--color-gray-100);
+    color: var(--color-gray-900);
+}
+
+.btn--secondary {
+    border-color: var(--color-gray-900);
+    color: var(--color-gray-900);
+}
+
+.btn--secondary:hover {
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+}
+
+@media screen and (width >= 768px) {
+    .btn {
+        padding: 0.25rem 1rem;
+    }
+}
+
+/* ---------------------> Links <--------------------- */
+.link  {
+    font-size: var(--text-size-sm);
+    line-height: var(--text-line-height-sm);
+    text-transform: uppercase;
+    transition: color 500ms ease-in-out;
+}
+
+.link--primary {
+    color: var(--color-gray-400);
+}
+
+.link--primary:hover {
+    color: var(--color-white);
+}
+
+.link--secondary {
+    color: var(--color-gray-600);
+}
+
+.link--secondary:hover {
+    color: var(--color-gray-900);
 }
