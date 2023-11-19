@@ -110,6 +110,7 @@ body {
 /* ---------------------> Lobby <--------------------- */
 .lobby {
     height: 100vh;
+    height: 100svh;
     padding: 4.25rem 0;
 }
 
