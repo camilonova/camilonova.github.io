@@ -17,6 +17,7 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* ---------------------> Globals <--------------------- */
 body {
     background-color: var(--color-gray-950);
     color: var(--color-white);
@@ -25,11 +26,24 @@ body {
     line-height: var(--text-line-height-base);
 }
 
+.sr-only {
+    border-width: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 /* ---------------------> Container <--------------------- */
 .container {
     margin: 0 auto;
     max-width: 1920px;
     padding: 0 var(--gutter);
+    width: 100%;
 }
 
 .grid {
@@ -59,6 +73,7 @@ body {
 
 .btn--primary {
     --ring-color: var(--color-gray-100);
+    background-color: var(--color-gray-950);
     color: var(--color-gray-100);
 }
 
@@ -69,6 +84,7 @@ body {
 
 .btn--secondary {
     --ring-color: var(--color-gray-900);
+    background-color: var(--color-white);
     color: var(--color-gray-900);
 }
 
@@ -278,5 +294,97 @@ body {
 
     .lobby.grid .lobby__btn:nth-of-type(3) {
         grid-column: 2 / span 2;
+    }
+}
+
+/* ---------------------> Overlay <--------------------- */
+.overlay {
+    background-color: var(--color-white);
+    color: var(--color-gray-900);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    inset: 0;
+    opacity: 0;
+    overflow-y: auto;
+    position: fixed;
+    transition-duration: 300ms;
+    transition-property: opacity, visibility, z-index;
+    transition-timing-function: ease-in-out;
+    visibility: hidden;
+    z-index: -1;
+}
+
+.overlay__header {
+    padding: 1.5rem var(--gutter);
+    position: sticky;
+    top: 0;
+}
+
+.overlay__close-btn {
+    display: flex;
+    margin: 0 auto;
+}
+
+.overlay--dark {
+    background-color: var(--color-gray-950);
+    color: var(--color-white);
+}
+
+.overlay--active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+@media screen and (width >= 768px) {
+    .overlay__header {
+        padding: 2.5rem var(--gutter);
+    }
+}
+
+/* ---------------------> About <--------------------- */
+.about {
+    padding: 1.5rem 0;
+}
+
+.about__figure img {
+    border: 1px solid var(--color-gray-900);
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about.grid {
+    row-gap: 1.5rem;
+}
+
+.about.grid .about__figure,
+.about.grid .about__text {
+    grid-column: 1 / span 12;
+}
+
+@media screen and (width >= 768px) {
+    .about {
+        padding: 2.5rem 0;
+    }
+
+    .about.grid {
+        row-gap: 2rem;
+    }
+
+    .about.grid .about__figure,
+    .about.grid .about__text {
+        grid-column: 2 / span 10;
+    }
+}
+
+@media screen and (width >= 1024px) {
+    .about.grid .about__figure {
+        grid-column: 2 / span 4;
+    }
+
+    .about.grid .about__text {
+        grid-column: 7 / span 5;
     }
 }
