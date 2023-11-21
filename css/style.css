@@ -38,6 +38,15 @@ body {
     width: 1px;
 }
 
+.lazyload-img {
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.lazyload-img--loading {
+   opacity: 0;
+}
+
 /* ---------------------> Container <--------------------- */
 .container {
     margin: 0 auto;
@@ -319,6 +328,7 @@ body {
     padding: 1.5rem var(--gutter);
     position: sticky;
     top: 0;
+    z-index: 50;
 }
 
 .overlay__close-btn {
@@ -349,7 +359,7 @@ body {
 }
 
 .about__figure img {
-    border: 1px solid var(--color-gray-900);
+    border: 1.5px solid var(--color-gray-900);
     display: block;
     width: 100%;
     height: auto;
@@ -380,6 +390,11 @@ body {
 }
 
 @media screen and (width >= 1024px) {
+    .about__figure img {
+        position: sticky;
+        top: 9.5rem;
+    }
+    
     .about.grid .about__figure {
         grid-column: 2 / span 4;
     }
@@ -418,5 +433,155 @@ body {
 @media screen and (width >= 1280px) {
     .places-visited {
         padding: 0 0 6rem;
+    }
+}
+
+/* ---------------------> Book list <--------------------- */
+.book-list {
+    padding: 0.5rem 0 8rem;
+}
+
+.book-list.grid {
+    row-gap: 4rem;
+}
+
+.book-item__image {
+    aspect-ratio: 7 / 10;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.book-item__image img {
+    height: 100%;
+    inset: 0;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.book-item__title,
+.book-item__author {
+    font-size: var(--text-size-xs);
+    line-height: var(--text-line-height-xs);
+}
+
+.book-item__author {
+    color: var(--color-gray-300);
+    margin-top: 0.5rem;
+}
+
+.book-list.grid .book-item {
+    grid-column: span 6;
+}
+
+.book-list.grid .book-item--grid-1,
+.book-list.grid .book-item--grid-5, 
+.book-list.grid .book-item--grid-6, 
+.book-list.grid .book-item--grid-10 {
+    margin-top: 4rem;
+}
+
+.book-list.grid .book-item--grid-3,
+.book-list.grid .book-item--grid-8 {
+    grid-column: 4 / span 6;
+}
+
+@media screen and (width >= 640px) {
+    .book-list.grid {
+        column-gap: 2.5rem;
+    }
+}
+
+@media screen and (width >= 768px) {
+    .book-list {
+        padding: 0 0 8rem;
+    }
+    
+    .book-list.grid {
+        column-gap: var(--gutter);
+    }
+    
+    .book-list.grid .book-item {
+        grid-column: span 4;
+    }
+
+    .book-list.grid .book-item--grid-1,
+    .book-list.grid .book-item--grid-4, 
+    .book-list.grid .book-item--grid-6, 
+    .book-list.grid .book-item--grid-9 {
+        grid-column: 2 / span 4;
+    }
+
+    .book-list.grid .book-item--grid-2,
+    .book-list.grid .book-item--grid-5, 
+    .book-list.grid .book-item--grid-7, 
+    .book-list.grid .book-item--grid-10 {
+        grid-column: 8 / span 4;
+    }
+
+    .book-list.grid .book-item--grid-3, 
+    .book-list.grid .book-item--grid-8 {
+        grid-column: 5 / span 4;
+    }
+}
+
+@media screen and (width >= 1024px) {
+    .book-list {
+        padding: 0 0 12rem;
+    }
+
+    .book-list.grid {
+        row-gap: 0;
+    }
+
+    .book-list.grid .book-item {
+        grid-column: span 2;
+    }
+
+    .book-list.grid .book-item--grid-1,
+    .book-list.grid .book-item--grid-7,
+    .book-list.grid .book-item--grid-8,
+    .book-list.grid .book-item--grid-9 {
+        margin-top: 8rem;
+    }
+
+    .book-list.grid .book-item--grid-2 {
+        margin-top: 4rem;
+    }
+
+    .book-list.grid .book-item--grid-3,
+    .book-list.grid .book-item--grid-7 {
+        margin-top: 12rem;
+    }
+
+    .book-list.grid .book-item--grid-1,
+    .book-list.grid .book-item--grid-6 {
+        grid-column: 2 / span 2;
+    }
+
+    .book-list.grid .book-item--grid-2,
+    .book-list.grid .book-item--grid-7 {
+        grid-column: 6 / span 2;
+    }
+
+    .book-list.grid .book-item--grid-3,
+    .book-list.grid .book-item--grid-8 {
+        grid-column: 10 / span 2;
+    }
+
+    .book-list.grid .book-item--grid-4,
+    .book-list.grid .book-item--grid-9 {
+        grid-column: 4 / span 2;
+    }
+
+    .book-list.grid .book-item--grid-5,
+    .book-list.grid .book-item--grid-10 {
+        grid-column: 8 / span 2;
+    }
+}
+
+@media screen and (width >= 1280px) {
+    .book-list.grid {
+        row-gap: 4rem;
     }
 }
