@@ -10,7 +10,7 @@ From Visual Studio Code:
 
 ## Develop
 
-Books read data is taken from [goodreads](https://www.goodreads.com/user/show/67012247-camilo-nova). Information is stored in a JSON in the root of the project [file](./books.json) named ``books.json`` and must be updated manually to display new books.
+Books read data is taken from [goodreads](https://www.goodreads.com/user/show/67012247-camilo-nova). Information is stored in a [JSON file](./books.json) in the root of the project named ``books.json`` and must be updated manually to display new books.
 
 To do this the following steps must be followed:
 1. Run this script in the shell plus:
