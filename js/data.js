@@ -6,5 +6,6 @@ export default {
         title: item.title,
         author: item.author,
         cover_image: item.book_large_image_url,
+        notes_url: item.notes_url,
     })),
 }

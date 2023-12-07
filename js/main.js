@@ -26,13 +26,15 @@ window.addEventListener('load', () => {
     });
 
     BookGroups.forEach(group => {
-        group.forEach(({ id, title, author, cover_image }, index) => {
+        group.forEach(({ id, title, author, cover_image, notes_url }, index) => {
             const bookElement = document.createElement('figure');
             bookElement.classList.add('book-item');
             bookElement.classList.add(bookListStyleMap[index]);
             bookElement.innerHTML = `
                 <div class="book-item__image">
-                    <img class="js-lazyload-img lazyload-img lazyload-img--loading" src="${ cover_image }" loading="lazy" alt="${ title } - ${id}">
+                    <a href="${ notes_url }" target="_blank">
+                        <img class="js-lazyload-img lazyload-img lazyload-img--loading" src="${ cover_image }" loading="lazy" alt="${ title } - ${id}">
+                    </a>
                 </div>
                 <figcaption>
                     <h3 class="book-item__title">${ title }</h3>
