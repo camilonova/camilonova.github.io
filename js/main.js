@@ -14,44 +14,58 @@ const bookListStyleMap = {
     9: 'book-item--grid-10',
 }
 
+function imageLazyLoad() {
+    const images = document.querySelectorAll('.js-lazyload-img');
+
+    if (images.length) {
+        images.forEach(img => {
+            const loaded = () => img.classList.remove('lazyload-img--loading');
+    
+            if (img.complete) loaded();
+            else img.addEventListener('load', loaded);
+        });
+    }
+}
+
 window.addEventListener('load', () => {
     document.querySelector('.js-lobby-section').classList.remove('lobby--loading');
 
-    let BookGroups = [];
+    const renderBooks = async () => {
+        const books = await data.books_read();
+        let BookGroups = [];
 
-    data.books_read.forEach((_, index, bookList) => {
-        if (index % Object.entries(bookListStyleMap).length === 0) {
-            BookGroups.push(bookList.slice(index, index + Object.entries(bookListStyleMap).length));
-        }
-    });
-
-    BookGroups.forEach(group => {
-        group.forEach(({ id, title, author, cover_image, notes_url }, index) => {
-            const bookElement = document.createElement('figure');
-            bookElement.classList.add('book-item');
-            bookElement.classList.add(bookListStyleMap[index]);
-            bookElement.innerHTML = `
-                <div class="book-item__image">
-                    <a href="${ notes_url }" target="_blank">
-                        <img class="js-lazyload-img lazyload-img lazyload-img--loading" src="${ cover_image }" loading="lazy" alt="${ title } - ${id}">
-                    </a>
-                </div>
-                <figcaption>
-                    <h3 class="book-item__title">${ title }</h3>
-                    <p class="book-item__author">${ author }</p>
-                </figcaption>
-            `;
-
-            document.querySelector('.js-book-list-container').appendChild(bookElement);
+        books.forEach((_, index, bookList) => {
+            if (index % Object.entries(bookListStyleMap).length === 0) {
+                BookGroups.push(bookList.slice(index, index + Object.entries(bookListStyleMap).length));
+            }
         });
-    })
+    
+        BookGroups.forEach(group => {
+            group.forEach(({ id, title, author, cover_image, notes_url }, index) => {
+                const bookElement = document.createElement('figure');
+                bookElement.classList.add('book-item');
+                bookElement.classList.add(bookListStyleMap[index]);
+                bookElement.innerHTML = `
+                    <div class="book-item__image">
+                        <a href="${ notes_url }" target="_blank">
+                            <img class="js-lazyload-img lazyload-img lazyload-img--loading" src="${ cover_image }" loading="lazy" alt="${ title } - ${id}">
+                        </a>
+                    </div>
+                    <figcaption>
+                        <h3 class="book-item__title">${ title }</h3>
+                        <p class="book-item__author">${ author }</p>
+                    </figcaption>
+                `;
+    
+                document.querySelector('.js-book-list-container').appendChild(bookElement);
+            });
+        })
 
-    document.querySelectorAll('.js-lazyload-img').forEach(img => {
-        const loaded = () => img.classList.remove('lazyload-img--loading');
+        imageLazyLoad();
+    }
 
-        if (img.complete) loaded();
-        else img.addEventListener('load', loaded);
-    });
+    imageLazyLoad();
+    renderBooks();
 });
 
 document.addEventListener('click', event => {
