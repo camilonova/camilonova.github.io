@@ -39,8 +39,8 @@ window.addEventListener('load', () => {
                 BookGroups.push(bookList.slice(index, index + Object.entries(bookListStyleMap).length));
             }
         });
-    
-        BookGroups.forEach(group => {
+
+        for (const group of BookGroups) {
             group.forEach(({ id, title, author, cover_image, notes_url }, index) => {
                 const bookElement = document.createElement('figure');
                 bookElement.classList.add('book-item');
@@ -59,7 +59,7 @@ window.addEventListener('load', () => {
     
                 document.querySelector('.js-book-list-container').appendChild(bookElement);
             });
-        })
+        }
 
         imageLazyLoad();
     }
