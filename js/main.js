@@ -20,7 +20,7 @@ function imageLazyLoad() {
     if (images.length) {
         images.forEach(img => {
             const loaded = () => img.classList.remove('lazyload-img--loading');
-    
+
             if (img.complete) loaded();
             else img.addEventListener('load', loaded);
         });
@@ -52,11 +52,11 @@ window.addEventListener('load', () => {
                         </a>
                     </div>
                     <figcaption>
-                        <h3 class="book-item__title">${ title }</h3>
+                        <h3 class="book-item__title"><a href="${ notes_url }" target="_blank">${ title }</a></h3>
                         <p class="book-item__author">${ author }</p>
                     </figcaption>
                 `;
-    
+
                 document.querySelector('.js-book-list-container').appendChild(bookElement);
             });
         }

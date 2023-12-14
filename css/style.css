@@ -163,8 +163,8 @@ body {
     align-self: self-end;
 }
 
-.lobby__btn, 
-.lobby__links-nav, 
+.lobby__btn,
+.lobby__links-nav,
 .lobby__social-nav {
     transition: opacity 500ms ease-in;
 }
@@ -203,8 +203,8 @@ body {
     grid-column: 1 / span 12;
 }
 
-.lobby--loading .lobby__btn, 
-.lobby--loading .lobby__links-nav, 
+.lobby--loading .lobby__btn,
+.lobby--loading .lobby__links-nav,
 .lobby--loading .lobby__social-nav {
     opacity: 0;
 }
@@ -219,14 +219,14 @@ body {
         row-gap: 0;
     }
 
-    .lobby__btn, 
-    .lobby__links-nav, 
+    .lobby__btn,
+    .lobby__links-nav,
     .lobby__social-nav {
         transition: transform 350ms ease-in, opacity 450ms ease-in;
     }
 
-    .lobby--loading .lobby__btn, 
-    .lobby--loading .lobby__links-nav, 
+    .lobby--loading .lobby__btn,
+    .lobby--loading .lobby__links-nav,
     .lobby--loading .lobby__social-nav {
         transform: translateY(20vh);
     }
@@ -394,7 +394,7 @@ body {
         position: sticky;
         top: 9.5rem;
     }
-    
+
     .about.grid .about__figure {
         grid-column: 2 / span 4;
     }
@@ -465,6 +465,10 @@ body {
     line-height: var(--text-line-height-xs);
 }
 
+.book-item__title a {
+    text-decoration: underline;
+}
+
 .book-item__author {
     color: var(--color-gray-300);
     margin-top: 0.5rem;
@@ -475,8 +479,8 @@ body {
 }
 
 .book-list.grid .book-item--grid-1,
-.book-list.grid .book-item--grid-5, 
-.book-list.grid .book-item--grid-6, 
+.book-list.grid .book-item--grid-5,
+.book-list.grid .book-item--grid-6,
 .book-list.grid .book-item--grid-10 {
     margin-top: 4rem;
 }
@@ -496,30 +500,30 @@ body {
     .book-list {
         padding: 0 0 8rem;
     }
-    
+
     .book-list.grid {
         column-gap: var(--gutter);
     }
-    
+
     .book-list.grid .book-item {
         grid-column: span 4;
     }
 
     .book-list.grid .book-item--grid-1,
-    .book-list.grid .book-item--grid-4, 
-    .book-list.grid .book-item--grid-6, 
+    .book-list.grid .book-item--grid-4,
+    .book-list.grid .book-item--grid-6,
     .book-list.grid .book-item--grid-9 {
         grid-column: 2 / span 4;
     }
 
     .book-list.grid .book-item--grid-2,
-    .book-list.grid .book-item--grid-5, 
-    .book-list.grid .book-item--grid-7, 
+    .book-list.grid .book-item--grid-5,
+    .book-list.grid .book-item--grid-7,
     .book-list.grid .book-item--grid-10 {
         grid-column: 8 / span 4;
     }
 
-    .book-list.grid .book-item--grid-3, 
+    .book-list.grid .book-item--grid-3,
     .book-list.grid .book-item--grid-8 {
         grid-column: 5 / span 4;
     }
