@@ -32,18 +32,16 @@ def get_books(user_id: int, page: int = 1) -> dict:
     for item in root.findall('.//item'):
         book_id = item.find('book_id').text if item.find('book_id') is not None else ''
         title = item.find('title').text if item.find('title') is not None else ''
-        book_small_image_url = item.find('book_small_image_url').text if item.find('book_small_image_url') is not None else ''
-        book_medium_image_url = item.find('book_medium_image_url').text if item.find('book_medium_image_url') is not None else ''
         book_large_image_url = item.find('book_large_image_url').text if item.find('book_large_image_url') is not None else ''
-        author = item.find('author_name').text if item.find('author_name') is not None else ''
+        author_name = item.find('author_name').text if item.find('author_name') is not None else ''
+        user_rating = item.find('user_rating').text if item.find('user_rating') is not None else 0
 
         books.append({
             'book_id': book_id,
             'title': title,
-            'book_small_image_url': book_small_image_url,
-            'book_medium_image_url': book_medium_image_url,
             'book_large_image_url': book_large_image_url,
-            'author': author,
+            'author_name': author_name,
+            'user_rating': user_rating,
             'notes_url': f'https://www.goodreads.com/notes/{book_id}/{user_id}'
         })
 

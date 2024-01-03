@@ -41,19 +41,20 @@ window.addEventListener('load', () => {
         });
 
         for (const group of BookGroups) {
-            group.forEach(({ id, title, author, cover_image, notes_url }, index) => {
+            group.forEach(({ id, title, author_name, book_large_image_url, notes_url, user_rating }, index) => {
                 const bookElement = document.createElement('figure');
                 bookElement.classList.add('book-item');
                 bookElement.classList.add(bookListStyleMap[index]);
                 bookElement.innerHTML = `
                     <div class="book-item__image">
                         <a href="${ notes_url }" target="_blank">
-                            <img class="js-lazyload-img lazyload-img lazyload-img--loading" src="${ cover_image }" loading="lazy" alt="${ title } - ${id}">
+                            <img class="js-lazyload-img lazyload-img lazyload-img--loading" src="${ book_large_image_url }" loading="lazy" alt="${ title } - ${id}">
                         </a>
                     </div>
                     <figcaption>
                         <h3 class="book-item__title"><a href="${ notes_url }" target="_blank">${ title }</a></h3>
-                        <p class="book-item__author">${ author }</p>
+                        <p class="book-item__author">${ author_name }</p>
+                        <p>${ '⭐️'.repeat(user_rating) }</p>
                     </figcaption>
                 `;
 
