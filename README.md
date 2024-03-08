@@ -23,7 +23,7 @@ import xml.etree.ElementTree as ET
 
 
 def get_books(user_id: int, page: int = 1) -> dict:
-    url = f'https://www.goodreads.com/review/list_rss/{user_id}?shelf=read&page={page}'
+    url = f'https://www.goodreads.com/review/list_rss/{user_id}?shelf=read&sort=added&page={page}'
     response = urllib.request.urlopen(url)
     xml_data = response.read()
 
@@ -52,7 +52,7 @@ def get_books(user_id: int, page: int = 1) -> dict:
 
 with open('books.json', 'w') as json_file:
     books = get_books(user_id=67012247)
-    json.dump(books, json_file)
+    json.dump(books, json_file, indent=2)
 
 ```
 

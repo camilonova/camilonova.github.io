@@ -1,6 +1,6 @@
 export default {
     books_read: async () => {
-        const response = await fetch('../books.json');
+        const response = await fetch(`../books.json?${new Date().getTime()}`);
         const items = await response.json();
 
         return items.map(item => ({
