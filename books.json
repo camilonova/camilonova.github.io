@@ -1,5 +1,21 @@
 [
   {
+    "book_id": "42730295",
+    "title": "Conspiracy: A True Story of Power, Sex, and a Billionaire's Secret Plot to Destroy a Media Empire",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553768326l/42730295.jpg",
+    "author_name": "Ryan Holiday",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/42730295/67012247"
+  },
+  {
+    "book_id": "43263498",
+    "title": "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568864986l/43263498.jpg",
+    "author_name": "Kim Malone Scott",
+    "user_rating": "3",
+    "notes_url": "https://www.goodreads.com/notes/43263498/67012247"
+  },
+  {
     "book_id": "9344385",
     "title": "Who: The A Method for Hiring",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394316581l/9344385.jpg",
@@ -25,7 +41,7 @@
   },
   {
     "book_id": "27286963",
-    "title": "Coaching Habit",
+    "title": "The Coaching Habit : Say Less, Ask More & Change the Way You Lead Forever",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453945533l/27286963.jpg",
     "author_name": "Michael Bungay Stanier",
     "user_rating": "5",
@@ -883,7 +899,7 @@
     "book_id": "8659430",
     "title": "Autobiography of a Yogi",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328343274l/8659430.jpg",
-    "author_name": "Paramhansa Yogananda",
+    "author_name": "Paramahansa Yogananda",
     "user_rating": "3",
     "notes_url": "https://www.goodreads.com/notes/8659430/67012247"
   },
