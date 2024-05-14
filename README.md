@@ -23,7 +23,7 @@ import xml.etree.ElementTree as ET
 
 
 def get_books(user_id: int, page: int = 1) -> dict:
-    url = f'https://www.goodreads.com/review/list_rss/{user_id}?shelf=read&sort=added&page={page}'
+    url = f'https://www.goodreads.com/review/list_rss/{user_id}?shelf=read&sort=date_read&page={page}'
     response = urllib.request.urlopen(url)
     xml_data = response.read()
 
