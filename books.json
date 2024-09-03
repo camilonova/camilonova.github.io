@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "12329637",
+    "title": "Good Strategy Bad Strategy: The Difference and Why It Matters",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328310410l/12329637.jpg",
+    "author_name": "Richard P. Rumelt",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/12329637/67012247"
+  },
+  {
     "book_id": "62323272",
     "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1662517531l/62323272._SY475_.jpg",
@@ -122,14 +130,14 @@
   {
     "book_id": "38597764",
     "title": "The Infinite Game",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518790449l/38597764._SY475_.jpg",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569375562l/38597764._SY475_.jpg",
     "author_name": "Simon Sinek",
     "user_rating": "4",
     "notes_url": "https://www.goodreads.com/notes/38597764/67012247"
   },
   {
     "book_id": "28114573",
-    "title": "The Way Things Work: Newly Revised Edition: The Ultimate Guide to How Things Work",
+    "title": "The Way Things Work: Newly Revised Edition",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455764865l/28114573.jpg",
     "author_name": "David Macaulay",
     "user_rating": "4",
@@ -225,7 +233,7 @@
   },
   {
     "book_id": "91781",
-    "title": "King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine: A Jungian Approach to Self-Discovery",
+    "title": "King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384259565l/91781.jpg",
     "author_name": "Robert L. Moore",
     "user_rating": "5",
@@ -401,7 +409,7 @@
   },
   {
     "book_id": "43848929",
-    "title": "Talking to Strangers: What We Should Know About the People We Don\u2019t Know",
+    "title": "Talking to Strangers: What We Should Know About the People We Don't Know",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549393502l/43848929._SX318_.jpg",
     "author_name": "Malcolm Gladwell",
     "user_rating": "4",
@@ -602,7 +610,7 @@
   {
     "book_id": "15992204",
     "title": "The Righteous Mind: Why Good People are Divided by Politics and Religion",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337185509l/15992204.jpg",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724159901l/15992204.jpg",
     "author_name": "Jonathan Haidt",
     "user_rating": "5",
     "notes_url": "https://www.goodreads.com/notes/15992204/67012247"
@@ -1024,14 +1032,6 @@
     "notes_url": "https://www.goodreads.com/notes/34528055/67012247"
   },
   {
-    "book_id": "28188220",
-    "title": "Giraffes Can't Dance",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1450035625l/28188220._SX318_.jpg",
-    "author_name": "Giles Andreae",
-    "user_rating": "5",
-    "notes_url": "https://www.goodreads.com/notes/28188220/67012247"
-  },
-  {
     "book_id": "34432996",
     "title": "Six Not-So-Easy Pieces: Einstein's Relativity, Symmetry, and Space-Time (Helix Books)",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1488322923l/34432996._SY475_.jpg",
@@ -1040,28 +1040,12 @@
     "notes_url": "https://www.goodreads.com/notes/34432996/67012247"
   },
   {
-    "book_id": "18799561",
-    "title": "The Hiccupotamus (Hiccupotamus and Friends Book 1)",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385087598l/18799561.jpg",
-    "author_name": "Aaron Zenz",
-    "user_rating": "0",
-    "notes_url": "https://www.goodreads.com/notes/18799561/67012247"
-  },
-  {
     "book_id": "30290691",
     "title": "The Effective Executive: The Definitive Guide to Getting the Right Things Done (Harperbusiness Essentials)",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464205224l/30290691._SY475_.jpg",
     "author_name": "Peter F. Drucker",
     "user_rating": "5",
     "notes_url": "https://www.goodreads.com/notes/30290691/67012247"
-  },
-  {
-    "book_id": "18749141",
-    "title": "The Pout-Pout Fish (A Pout-Pout Fish Adventure Book 1)",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394765533l/18749141.jpg",
-    "author_name": "Deborah Diesen",
-    "user_rating": "5",
-    "notes_url": "https://www.goodreads.com/notes/18749141/67012247"
   },
   {
     "book_id": "19258920",
@@ -1110,14 +1094,6 @@
     "author_name": "Peter Thiel",
     "user_rating": "5",
     "notes_url": "https://www.goodreads.com/notes/22047640/67012247"
-  },
-  {
-    "book_id": "25324202",
-    "title": "Kindle Paperwhite User's Guide",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428537009l/25324202.jpg",
-    "author_name": "Amazon",
-    "user_rating": "0",
-    "notes_url": "https://www.goodreads.com/notes/25324202/67012247"
   },
   {
     "book_id": "8165487",
@@ -1174,14 +1150,6 @@
     "author_name": "Dale Carnegie",
     "user_rating": "5",
     "notes_url": "https://www.goodreads.com/notes/4865/67012247"
-  },
-  {
-    "book_id": "76334",
-    "title": "A New Earth: Awakening to Your Life's Purpose",
-    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388206232l/76334.jpg",
-    "author_name": "Eckhart Tolle",
-    "user_rating": "0",
-    "notes_url": "https://www.goodreads.com/notes/76334/67012247"
   },
   {
     "book_id": "4224060",
