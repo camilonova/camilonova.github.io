@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+import json
+import urllib.request
+import xml.etree.ElementTree as ET
+
+
+def get_books(user_id: int, page: int = 1) -> list:
+    url = f'https://www.goodreads.com/review/list_rss/{user_id}?shelf=read&sort=date_read&page={page}'
+    response = urllib.request.urlopen(url)
+    xml_data = response.read()
+
+    root = ET.fromstring(xml_data)
+    books = []
+    for item in root.findall('.//item'):
+        book_id = item.findtext('book_id', '')
+        books.append({
+            'book_id': book_id,
+            'title': item.findtext('title', ''),
+            'book_large_image_url': item.findtext('book_large_image_url', ''),
+            'author_name': item.findtext('author_name', ''),
+            'user_rating': item.findtext('user_rating', 0),
+            'notes_url': f'https://www.goodreads.com/notes/{book_id}/{user_id}'
+        })
+
+    if len(books) % 100 == 0:
+        books += get_books(user_id=user_id, page=page+1)
+
+    return books
+
+with open('books.json', 'w') as json_file:
+    books = get_books(user_id=67012247)
+    json.dump(books, json_file, indent=2)
