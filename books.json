@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "36548138",
+    "title": "The 48 Laws of Power",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1510001919l/36548138._SX318_.jpg",
+    "author_name": "Robert Greene",
+    "user_rating": "5",
+    "notes_url": "https://www.goodreads.com/notes/36548138/67012247"
+  },
+  {
     "book_id": "25899336",
     "title": "When Breath Becomes Air",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1492677644l/25899336.jpg",
@@ -769,7 +777,7 @@
   },
   {
     "book_id": "45325040",
-    "title": "Los muiscas (Spanish Edition)",
+    "title": "Los muiscas",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556490920l/45325040._SY475_.jpg",
     "author_name": "Carl Henrik Langebaek",
     "user_rating": "4",
