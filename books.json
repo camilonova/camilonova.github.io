@@ -1,5 +1,21 @@
 [
   {
+    "book_id": "196239284",
+    "title": "$100M Leads: How to Get Strangers To Want To Buy Your Stuff (Acquisition.com $100M Series)",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1691740604l/196239284._SY475_.jpg",
+    "author_name": "Alex Hormozi",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/196239284/67012247"
+  },
+  {
+    "book_id": "12767994",
+    "title": "The Fabric of Reality: The Science of Parallel Universes--and Its Implications",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328318620l/12767994.jpg",
+    "author_name": "David Deutsch",
+    "user_rating": "5",
+    "notes_url": "https://www.goodreads.com/notes/12767994/67012247"
+  },
+  {
     "book_id": "55711670",
     "title": "Your Next Five Moves: Master the Art of Business Strategy",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620572890l/55711670.jpg",
@@ -217,7 +233,7 @@
   },
   {
     "book_id": "28114573",
-    "title": "The Way Things Work: Newly Revised Edition",
+    "title": "The Way Things Work: Newly Revised Edition: The Newly Revised Edition-From levers to lasers, windmills to wi-fi, a visual guide to the world of machines.",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455764865l/28114573.jpg",
     "author_name": "David Macaulay",
     "user_rating": "4",
@@ -1121,7 +1137,7 @@
   },
   {
     "book_id": "30290691",
-    "title": "The Effective Executive: The Definitive Guide to Getting the Right Things Done (Harperbusiness Essentials)",
+    "title": "The Effective Executive: The Definitive Guide to Getting the Right Things Done",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464205224l/30290691._SY475_.jpg",
     "author_name": "Peter F. Drucker",
     "user_rating": "5",
