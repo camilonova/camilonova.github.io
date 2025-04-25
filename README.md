@@ -1,12 +1,16 @@
 # Camilo Nova
 
-This website is available at: https://camilonova.com
+This is my personal website at: [https://camilonova.com](https://camilonova.com)
 
 ## Running
 
-From Visual Studio Code:
-1. Ensure [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) is installed.
-2. Right click on the index root of the project and "Open with Live Server". That's it! By default project is hosted on ==localhost:5500==.
+At the terminal
+
+```bash
+python -m http.server
+```
+
+Then open your browser and go to [http://localhost:8000](http://localhost:8000).
 
 ## Books
 
