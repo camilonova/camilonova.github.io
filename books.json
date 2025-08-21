@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "60965426",
+    "title": "The Creative Act: A Way of Being",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663707011l/60965426.jpg",
+    "author_name": "Rick Rubin",
+    "user_rating": "5",
+    "notes_url": "https://www.goodreads.com/notes/60965426/67012247"
+  },
+  {
     "book_id": "25018903",
     "title": "Managing Oneself (Harvard Business Review Classics)",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429637717l/25018903.jpg",
@@ -1342,5 +1350,13 @@
     "author_name": "Tony  Wagner",
     "user_rating": "4",
     "notes_url": "https://www.goodreads.com/notes/12676712/67012247"
+  },
+  {
+    "book_id": "21943956",
+    "title": "Rinoceronte",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397757856l/21943956.jpg",
+    "author_name": "Henry Lankast",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/21943956/67012247"
   }
 ]
