@@ -7,7 +7,7 @@ This is my personal website at: [https://camilonova.com](https://camilonova.com)
 At the terminal
 
 ```bash
-python -m http.server
+python3 -m http.server
 ```
 
 Then open your browser and go to [http://localhost:8000](http://localhost:8000).
