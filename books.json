@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "43790185",
+    "title": "The Algebra of Happiness: Notes on the Pursuit of Success, Love, and Meaning",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548861158l/43790185._SX318_.jpg",
+    "author_name": "Scott Galloway",
+    "user_rating": "3",
+    "notes_url": "https://www.goodreads.com/notes/43790185/67012247"
+  },
+  {
     "book_id": "52283963",
     "title": "The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566473431l/52283963._SX318_SY475_.jpg",
@@ -353,7 +361,7 @@
   },
   {
     "book_id": "23878688",
-    "title": "The 5 Love Languages: The Secret to Love that Lasts",
+    "title": "The 5 Love Languages: The Secret to Love That Lasts",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1432487272l/23878688._SY475_.jpg",
     "author_name": "Gary Chapman",
     "user_rating": "4",
