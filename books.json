@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "125165",
+    "title": "Pedro P\u00e1ramo",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1744042863l/125165._SY475_.jpg",
+    "author_name": "Juan Rulfo",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/125165/67012247"
+  },
+  {
     "book_id": "43790185",
     "title": "The Algebra of Happiness: Notes on the Pursuit of Success, Love, and Meaning",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548861158l/43790185._SX318_.jpg",
@@ -705,7 +713,7 @@
   },
   {
     "book_id": "40501186",
-    "title": "H\u00e1bitos de ricos: Nuevas ideas para alcanzar la libertad financiera / Habits of the Rich: Nuevas ideas para alcanzar la libertad financiera (Spanish Edition)",
+    "title": "H\u00e1bitos de ricos: Nuevas ideas para alcanzar la libertad financiera / Habits of the Rich (Spanish Edition)",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1563413044l/40501186.jpg",
     "author_name": "Juan Diego G\u00f3mez G\u00f3mez",
     "user_rating": "3",
