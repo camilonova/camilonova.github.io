@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "13573086",
+    "title": "Ficciones",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344371463l/13573086.jpg",
+    "author_name": "Jorge Luis Borges",
+    "user_rating": "3",
+    "notes_url": "https://www.goodreads.com/notes/13573086/67012247"
+  },
+  {
     "book_id": "125165",
     "title": "Pedro P\u00e1ramo",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1744042863l/125165._SY475_.jpg",
@@ -497,7 +505,7 @@
   },
   {
     "book_id": "91781",
-    "title": "King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
+    "title": "King, Warrior, Magician, Lover: Rediscovering Masculinity Through the Lens of Archetypal Psychology - A Journey into the Male Psyche and Its Four Essential Aspects",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384259565l/91781.jpg",
     "author_name": "Robert L. Moore",
     "user_rating": "5",
@@ -617,7 +625,7 @@
   },
   {
     "book_id": "11923102",
-    "title": "Good to Great: Why Some Companies Make the Leap...And Others Don't",
+    "title": "Good to Great: Why Some Companies Make the Leap...and Others Don't",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328348461l/11923102.jpg",
     "author_name": "Jim Collins",
     "user_rating": "5",
@@ -825,7 +833,7 @@
   },
   {
     "book_id": "20657434",
-    "title": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers",
+    "title": "The Hard Thing About Hard Things",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391109084l/20657434.jpg",
     "author_name": "Ben Horowitz",
     "user_rating": "5",
