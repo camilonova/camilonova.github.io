@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "55608342",
+    "title": "The Unbearable Lightness of Being:",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602261866l/55608342._SX318_.jpg",
+    "author_name": "Milan Kundera",
+    "user_rating": "3",
+    "notes_url": "https://www.goodreads.com/notes/55608342/67012247"
+  },
+  {
     "book_id": "10754019",
     "title": "Moonwalking with Einstein: The Art and Science of Remembering Everything",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328319698l/10754019.jpg",
@@ -489,7 +497,7 @@
   },
   {
     "book_id": "42428073",
-    "title": "Speed Reading: Learn to Read a 200+ Page Book in 1 Hour (Mental Performance)",
+    "title": "Speed Reading: Learn to Read a 200+ Page Book in 1 Hour",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540369133l/42428073._SX318_.jpg",
     "author_name": "Kam Knight",
     "user_rating": "4",
