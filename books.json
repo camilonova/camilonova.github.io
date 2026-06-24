@@ -1,5 +1,29 @@
 [
   {
+    "book_id": "220258740",
+    "title": "Poor Richard's Almanac",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1728486559l/220258740._SY475_.jpg",
+    "author_name": "Benjamin Franklin",
+    "user_rating": "3",
+    "notes_url": "https://www.goodreads.com/notes/220258740/67012247"
+  },
+  {
+    "book_id": "35259727",
+    "title": "Winnie-The-Pooh (Winnie-the-Pooh, #1)",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498847028l/35259727.jpg",
+    "author_name": "A.A. Milne",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/35259727/67012247"
+  },
+  {
+    "book_id": "245824943",
+    "title": "Lala Sings Them Home: A Story of Love, Music, and Finding Your Way Back Home",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1766820081l/245824943._SX318_.jpg",
+    "author_name": "Camilo Nova",
+    "user_rating": "5",
+    "notes_url": "https://www.goodreads.com/notes/245824943/67012247"
+  },
+  {
     "book_id": "35297258",
     "title": "The American Spirit: Who We Are and What We Stand For",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519618687l/35297258._SY475_.jpg",
@@ -745,7 +769,7 @@
   },
   {
     "book_id": "25674869",
-    "title": "Of Time and The River",
+    "title": "Of Time and The River: A Fictionalized Autobiography of Passion, Loss, and the Hunger for Life",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433561524l/25674869._SY475_.jpg",
     "author_name": "Thomas Wolfe",
     "user_rating": "3",
@@ -1361,7 +1385,7 @@
   },
   {
     "book_id": "6571744",
-    "title": "Influence: The Psychology of Persuasion (Collins Business Essentials)",
+    "title": "Influence: The Psychology of Persuasion (Collins Business Essentials Book 16)",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328323681l/6571744.jpg",
     "author_name": "Robert B. Cialdini",
     "user_rating": "5",
