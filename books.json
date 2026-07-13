@@ -1,11 +1,35 @@
 [
   {
+    "book_id": "123849465",
+    "title": "Uglies (Uglies, #1)",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1679880002l/123849465._SY475_.jpg",
+    "author_name": "Scott Westerfeld",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/123849465/67012247"
+  },
+  {
+    "book_id": "60569791",
+    "title": "On Writing (and Writers): A Miscellany of Advice and Opinions",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657520286l/60569791.jpg",
+    "author_name": "C.S. Lewis",
+    "user_rating": "4",
+    "notes_url": "https://www.goodreads.com/notes/60569791/67012247"
+  },
+  {
     "book_id": "53356280",
     "title": "The Wisdom of Insecurity",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589055765l/53356280._SY475_.jpg",
     "author_name": "Alan W. Watts",
     "user_rating": "5",
     "notes_url": "https://www.goodreads.com/notes/53356280/67012247"
+  },
+  {
+    "book_id": "551750",
+    "title": "Who Am I?: The Teachings of Bhagavan Sri Ramana Maharshi",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542895533l/551750._SY475_.jpg",
+    "author_name": "Ramana Maharshi",
+    "user_rating": "3",
+    "notes_url": "https://www.goodreads.com/notes/551750/67012247"
   },
   {
     "book_id": "34113939",
