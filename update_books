@@ -1,32 +1,68 @@
 #!/usr/bin/env python3
 import json
+import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from pathlib import Path
 
 
-def get_books(user_id: int, page: int = 1) -> list:
-    url = f'https://www.goodreads.com/review/list_rss/{user_id}?shelf=read&sort=date_read&page={page}'
-    response = urllib.request.urlopen(url)
-    xml_data = response.read()
+USER_ID = 67012247
+PAGE_SIZE = 100
+TIMEOUT = 30
+OUTPUT_PATH = Path(__file__).with_name('books.json')
 
-    root = ET.fromstring(xml_data)
-    books = []
-    for item in root.findall('.//item'):
-        book_id = item.findtext('book_id', '')
-        books.append({
+
+def fetch_page(page):
+    url = (
+        f'https://www.goodreads.com/review/list_rss/{USER_ID}'
+        f'?shelf=read&sort=date_read&page={page}'
+    )
+    with urllib.request.urlopen(url, timeout=TIMEOUT) as response:
+        root = ET.fromstring(response.read())
+
+    return [
+        {
             'book_id': book_id,
-            'title': item.findtext('title', ''),
-            'book_large_image_url': item.findtext('book_large_image_url', ''),
-            'author_name': item.findtext('author_name', ''),
-            'user_rating': item.findtext('user_rating', 0),
-            'notes_url': f'https://www.goodreads.com/notes/{book_id}/{user_id}'
-        })
+            'title': item.findtext('title') or '',
+            'book_large_image_url': item.findtext('book_large_image_url') or '',
+            'author_name': item.findtext('author_name') or '',
+            'user_rating': item.findtext('user_rating') or '',
+            'notes_url': f'https://www.goodreads.com/notes/{book_id}/{USER_ID}',
+        }
+        for item in root.findall('.//item')
+        if (book_id := item.findtext('book_id'))
+    ]
 
-    if len(books) % 100 == 0:
-        books += get_books(user_id=user_id, page=page+1)
 
-    return books
+def fetch_books():
+    books = []
+    for page in range(1, sys.maxsize):
+        page_books = fetch_page(page)
+        books.extend(page_books)
+        if len(page_books) < PAGE_SIZE:
+            return books
 
-with open('books.json', 'w') as json_file:
-    books = get_books(user_id=67012247)
-    json.dump(books, json_file, indent=2)
+    raise RuntimeError('Goodreads pagination did not end')
+
+
+def write_books(books):
+    temporary_path = OUTPUT_PATH.with_suffix('.json.tmp')
+    try:
+        temporary_path.write_text(f'{json.dumps(books, indent=2)}\n')
+        temporary_path.replace(OUTPUT_PATH)
+    finally:
+        temporary_path.unlink(missing_ok=True)
+
+
+def main():
+    try:
+        books = fetch_books()
+        write_books(books)
+    except (OSError, ET.ParseError) as error:
+        raise SystemExit(f'Could not update books: {error}') from error
+
+    print(f'Updated {OUTPUT_PATH.name} with {len(books)} books.')
+
+
+if __name__ == '__main__':
+    main()
