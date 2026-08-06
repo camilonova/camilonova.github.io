@@ -1,5 +1,13 @@
 [
   {
+    "book_id": "34564809",
+    "title": "Ender's Game (The Ender Saga, 1)",
+    "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493786131l/34564809.jpg",
+    "author_name": "Orson Scott Card",
+    "user_rating": "5",
+    "notes_url": "https://www.goodreads.com/notes/34564809/67012247"
+  },
+  {
     "book_id": "968634",
     "title": "Cannery Row (Cannery Row, #1)",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348676583l/968634.jpg",
@@ -985,7 +993,7 @@
   },
   {
     "book_id": "20657434",
-    "title": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers",
+    "title": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers\u2014Straight Talk on the Challenges of Entrepreneurship",
     "book_large_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391109084l/20657434.jpg",
     "author_name": "Ben Horowitz",
     "user_rating": "5",
