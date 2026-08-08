@@ -1,0 +1,42 @@
+name: Update books
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-books
+  cancel-in-progress: true
+
+jobs:
+  update-books:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Update books
+        run: ./update_books
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- books.json; then
+            echo 'No book changes to commit.'
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add books.json
+          git commit -m 'chore: update book list'
+          git push
