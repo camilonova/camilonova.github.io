@@ -27,6 +27,62 @@ function imageLazyLoad() {
     }
 }
 
+function initializeBookInteractions(bookList) {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const books = bookList.querySelectorAll('.book-item');
+
+    bookList.classList.add('book-list--motion');
+
+    books.forEach((book, index) => {
+        book.style.setProperty('--book-delay', `${-(index % 10) * 0.65}s`);
+        book.style.setProperty('--reveal-delay', `${(index % 5) * 55}ms`);
+
+        const cover = book.querySelector('.book-item__image a');
+        if (!cover) return;
+
+        const resetCover = () => {
+            cover.style.setProperty('--book-rotate-x', '0deg');
+            cover.style.setProperty('--book-rotate-y', '0deg');
+            cover.style.setProperty('--book-lift', '0px');
+            cover.style.setProperty('--pointer-x', '50%');
+            cover.style.setProperty('--pointer-y', '50%');
+        };
+
+        cover.addEventListener('pointermove', event => {
+            if (reduceMotion.matches || !canHover.matches) return;
+
+            const bounds = cover.getBoundingClientRect();
+            const x = (event.clientX - bounds.left) / bounds.width;
+            const y = (event.clientY - bounds.top) / bounds.height;
+
+            cover.style.setProperty('--book-rotate-x', `${(0.5 - y) * 8}deg`);
+            cover.style.setProperty('--book-rotate-y', `${(x - 0.5) * 8}deg`);
+            cover.style.setProperty('--book-lift', '-8px');
+            cover.style.setProperty('--pointer-x', `${x * 100}%`);
+            cover.style.setProperty('--pointer-y', `${y * 100}%`);
+        }, { passive: true });
+
+        cover.addEventListener('pointerleave', resetCover);
+        cover.addEventListener('blur', resetCover);
+    });
+
+    if (!('IntersectionObserver' in window) || reduceMotion.matches) {
+        books.forEach(book => book.classList.add('book-item--visible'));
+        return;
+    }
+
+    const revealObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('book-item--visible');
+            revealObserver.unobserve(entry.target);
+        });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+
+    books.forEach(book => revealObserver.observe(book));
+}
+
 function openOverlayByHash() {
     const hash = window.location.hash.substring(1); // Remove the '#' from the hash
     if (hash) {
@@ -82,6 +138,7 @@ window.addEventListener('load', () => {
         }
 
         imageLazyLoad();
+        initializeBookInteractions(document.querySelector('.js-book-list-container'));
     };
 
     imageLazyLoad();
